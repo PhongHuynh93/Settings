@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="info.androidhive.settings">
 
+    <!--https://www.androidhive.info/2017/07/android-implementing-preferences-settings-screen/-->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"

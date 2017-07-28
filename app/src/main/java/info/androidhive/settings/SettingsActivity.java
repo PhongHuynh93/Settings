@@ -26,10 +26,12 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
         super.onCreate(savedInstanceState);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+//        info - Remove setContentView() and load the MainPreferenceFragment() fragment.
         // load settings fragment
         getFragmentManager().beginTransaction().replace(android.R.id.content, new MainPreferenceFragment()).commit();
     }
 
+    // info - MainPreferenceFragment() contains all the necessary methods to inflate the settings xml, provides callbacks when the settings are changed.
     public static class MainPreferenceFragment extends PreferenceFragment {
         @Override
         public void onCreate(final Bundle savedInstanceState) {

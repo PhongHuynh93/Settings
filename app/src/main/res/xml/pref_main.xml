@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--info - design pref main with xml file-->
+    <!--&gt; EditTextPreference – Used to collect text input from user-->
+
+    <!--&gt; CheckBoxPreference – Displays a checkbox to toggle a setting-->
+
+    <!--&gt; ListPreference – Displays a diglog with list of options to choose-->
+
+    <!--&gt; SwitchPreference – Turn on/off a setting-->
+
+    <!--&gt; RingtonePreference – Launches devices’s ringtone list in which user can select preferred sound-->
+
+    <!--&gt; Preference with an Intent action android.intent.action.VIEW – to open external browser navigating to an url-->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory android:title="General">
         <EditTextPreference
